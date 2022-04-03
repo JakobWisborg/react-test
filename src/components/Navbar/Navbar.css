@@ -6,7 +6,6 @@ a {
   text-decoration: none;
 }
 a:-webkit-any-link {
-  color: -webkit-link;
   cursor: pointer;
 }
 label.logo {
@@ -24,7 +23,6 @@ label.logo {
 }
 .nav-color {
   background: rgb(29, 29, 29);
-  color: black;
 }
 .nav-top {
   width: 100%;
@@ -43,6 +41,7 @@ label.logo {
   padding: 0;
   margin: 0;
 }
+
 .nav-top ul li a {
   display: block;
   color: white;
@@ -50,10 +49,12 @@ label.logo {
   text-align: center;
   line-height: 93px;
   padding: 0px 30px;
-  border-radius: 7px;
   font-family: "sats-bold",sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+.nav-top ul li:hover {
+  background-color: rgb(46, 46, 46);
 }
 .nav-checkbtn {
   font-size: 30px;
@@ -76,20 +77,20 @@ label.logo {
 }
 
 .nav-logo-font{
-  text-decoration: none;
-  color: -webkit-link;
   cursor: pointer;
+  color: white;
 
   font-family: "sats-bold",sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   padding: 0px;
 
-  color: white;
   font-size: 24px;
   line-height: 93px;
   padding-left: 20px;
-  cursor: pointer;
+}
+.nav-logo-font:hover {
+  color: antiquewhite;
 }
 
 

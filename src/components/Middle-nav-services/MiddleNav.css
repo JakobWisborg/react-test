@@ -12,3 +12,10 @@
     text-decoration: none;
     color: white;
 }
+.item {
+    font-size: 16px;
+    line-height: 93px;
+}
+.item:hover {
+    background-color: rgb(46, 46, 46);
+}

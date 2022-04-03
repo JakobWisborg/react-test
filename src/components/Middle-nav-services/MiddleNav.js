@@ -2,13 +2,16 @@ import { Link } from "react-router-dom";
 import "./MiddleNav.css";
 import React from "react";
 
+import Training from '../../views/Training';
+import Treatment from '../../views/Treatment';
+import Conversation from '../../views/Conversation';
 
 const MiddleNav = () => {
     return (
       <section className="mid-content-services">
-        <a href="pt.html"><div class="item item-Träning hover"><p class="font">Träning</p></div></a>
-        <a href="behandling.html"><div class="item item-Coachning hover"><p class="font">Behandling</p></div></a> 
-        <a href="samtal.html"><div class="item item-Rådgivning hover"><p class="font">Samtal</p></div></a>           
+        <Link to="/services/training"><div className="item"><p className="font">Träning</p></div></Link>
+        <Link to="/services/treatment"><div className="item "><p className="font">Behandling</p></div></Link> 
+        <Link to="/services/conversation"><div className="item"><p className="font">Samtal</p></div></Link>           
       </section>
     );
   };

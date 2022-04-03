@@ -5,12 +5,14 @@ import './index.css';
 
 import App from './App';
 import Navbar from './components/Navbar/Navbar';
-import MiddleNav from '../../../components/Middle-nav-services/MiddleNav';
 import Footer from './components/Footer/Footer';
 
 import Services from './views/Services';
 import About from './views/About';
 import Contact from './views/Contact';
+import Training from './views/Training';
+import Treatment from './views/Treatment';
+import Conversation from './views/Conversation';
 
 
 ReactDOM.render(
@@ -22,8 +24,10 @@ ReactDOM.render(
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services/training" element={<Training/>} />
+          <Route path="/services/treatment" element={<Treatment/>} />
+          <Route path="/services/conversation" element={<Conversation/>} />
         </Routes> 
-      <MiddleNav />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
