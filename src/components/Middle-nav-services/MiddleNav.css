@@ -1,0 +1,14 @@
+.mid-content-services {
+    background: rgb(29, 29, 29);
+    color: white;
+    height: 93px;
+    color: white;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-areas: "item-Träning item-Rådgivning item-Coachning";
+    text-align: center;
+}
+.mid-content-services a {
+    text-decoration: none;
+    color: white;
+}

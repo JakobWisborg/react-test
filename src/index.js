@@ -5,6 +5,7 @@ import './index.css';
 
 import App from './App';
 import Navbar from './components/Navbar/Navbar';
+import MiddleNav from '../../../components/Middle-nav-services/MiddleNav';
 import Footer from './components/Footer/Footer';
 
 import Services from './views/Services';
@@ -21,7 +22,8 @@ ReactDOM.render(
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+        </Routes> 
+      <MiddleNav />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
