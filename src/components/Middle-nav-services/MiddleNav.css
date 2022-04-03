@@ -1,4 +1,6 @@
 .mid-content-services {
+    margin: 0px;
+    padding: 0px;
     background: rgb(29, 29, 29);
     color: white;
     height: 93px;
@@ -9,13 +11,21 @@
     text-align: center;
 }
 .mid-content-services a {
+    
     text-decoration: none;
     color: white;
 }
 .item {
+    
     font-size: 16px;
     line-height: 93px;
 }
 .item:hover {
     background-color: rgb(46, 46, 46);
+    color: antiquewhite;
+    border-bottom: 1px solid white;
+}
+.middle-nav-margin-padding {
+    margin-bottom: 0px;
+    padding: 0px;
 }

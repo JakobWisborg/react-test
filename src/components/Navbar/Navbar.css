@@ -30,6 +30,8 @@ label.logo {
   display: block;
 }
 .nav-top ul {
+  margin: 0px;
+  padding: 0px;
   float: right;
   margin-right: 20px;
   z-index: 1000;
@@ -102,19 +104,17 @@ label.logo {
   display: block;
 }
 .nav-top {
-  position: fixed;
   top: 0px;
   z-index: 1001;
 }
 .nav-top ul {
   position: fixed;
-  width: 100%;
+  width: 170px;
   height: 100vh;
   background: rgba(29, 29, 29, 0.877);
   top: 80px;
-  left: -100%;
+  right: -100%;
   text-align: center;
-  transition: all, .5s;
 }
 .nav-top ul li {
   display: block;
@@ -124,15 +124,12 @@ label.logo {
 .nav-top ul li a {
   font-size: 20px;
 }
-section:first-of-type  {
-  margin-top: 93px;
-}
 a:hover, a:active {
   background: none;
   color: #0082e6;
 }
 #check:checked ~ ul {
-  left: 0;
+  right: 0;
 }
 
 }

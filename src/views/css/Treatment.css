@@ -1,27 +1,24 @@
-.Training {
+.Treatment {
     padding: 2rem 3rem;
 }
-.Training p {
+.Treatment p {
     margin-bottom: 12px; 
 }
-.Training h1 {
+.Treatment h1 {
     margin-bottom: 8px;
 }
-.Training h3 {
+.Treatment h3 {
     margin-bottom: 24px;
 }
-.Training strong {
-    margin-bottom: 20px;
-}
-.Training ul {
+.Treatment ul {
     padding-left: 24px;
     margin-bottom: 16px;
 }
-.Training ul li{
+.Treatment ul li{
     
     list-style: circle;
 }
-.training-center {
+.treatment-center {
     text-align: center;
     margin-top: 24px;
     margin-bottom: 24px;

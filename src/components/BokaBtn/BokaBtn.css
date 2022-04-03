@@ -1,0 +1,17 @@
+.BokaBtn {
+    justify-content: center;
+}
+.btn-boka {
+    display: inline-block;
+    text-align: center;
+    margin:0 auto;
+    width: 200px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: solid 1px black;
+    background-color: rgb(65, 133, 65);
+    color: white;
+}
+.btn-boka:hover {
+    background-color: green;
+}

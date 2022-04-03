@@ -1,16 +1,29 @@
-b {
+.readMore {
+    text-align: center;
+}
+.readMore b {
     font-size: 24px;
     margin-bottom: 2rem;
     padding-bottom: 20px;
 }
-a {
+.readMore a {
     border: solid 1px;
+    border-radius: 7px;
     margin-left: 12px;
     line-height: 12px;
 }
-img {
-    
+.readMore img {
+    position: relative;
+    bottom: -5px;
 }
-p {
+.readMore p {
+    padding: 0px 25%;
     margin-top: 1em;
+    text-align: left;
+}
+
+@media (max-width: 858px) {
+    .readMore p {
+        padding: 0px 3%;
+    }
 }

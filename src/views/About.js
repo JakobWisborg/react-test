@@ -1,8 +1,10 @@
 import React from "react";
 import './css/About.css';
+import AOmika from '../img/AO-Mika.jpg';
 
 import MiddleNav from '../components/Middle-nav-services/MiddleNav';
 import ReadMoreReadLess from "../components/ReadMoreReadLess/ReadMoreReadLess";   
+import BokaBtn from "../components/BokaBtn/BokaBtn";
 
 const About = () => {
     
@@ -21,13 +23,16 @@ const About = () => {
                     <p>Oavsett vad du vill arbeta med kommer jag att involvera hela dig och kartlägga flera områden.</p> 
 
                 </div>
-                <div className="inline red">
-                    INSERT BILD
+                <div className="inline">
+                    <div className="profile-picture">
+                        <img src={AOmika} className="height"></img>
+                    </div>
+                    
                 </div>
             </div>
 
             <div className="wide-text">
-                Boka en kostnadsfri konsultation och få 50% på din första timme. (boka knapp) TESta 
+               <h2>Boka en kostnadsfri konsultation och få 50% på din första timme!</h2>  <BokaBtn />
             </div>
 
             <div className="wide-text">

@@ -1,0 +1,17 @@
+footer {
+    background-color: rgb(29, 29, 29);;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+footer span {
+    font-size: 20px;
+    line-height: 35px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: rgb(108, 57, 247);
+}

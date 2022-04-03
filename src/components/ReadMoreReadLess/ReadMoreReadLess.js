@@ -10,7 +10,7 @@ const ReadMoreReadLess = () => {
  
 
     return (
-        <div>
+        <div className="readMore">
             <b>Utbildning:</b> 
            
             <a onClick={() => setShow(!show)}>
@@ -21,19 +21,19 @@ const ReadMoreReadLess = () => {
             </a>
             {show && 
             <p>
-                Utbildad Hälsopedagog med fördjupade studier inom hälsosamt idrottande <br/>
+                Utbildad Hälsopedagog med fördjupade studier inom hälsosamt idrottande <br/><br/>
 
-                Licensierad Personlig tränare <br/>
+                Licensierad Personlig tränare <br/><br/>
 
-                Diplomerad hälsocoach <br/>
+                Diplomerad hälsocoach <br/><br/>
 
-                Idrottspsykologisk rådgivare <br/>
+                Idrottspsykologisk rådgivare <br/><br/>
 
-                Fasciabehandling <br/>
+                Fasciabehandling <br/><br/>
 
-                Gravid och Mamma-tränare<br/>
+                Gravid och Mamma-tränare<br/><br/>
 
-                Mobility Trainer <br/>
+                Mobility Trainer <br/><br/>
 
                 Fystränare
             </p>}

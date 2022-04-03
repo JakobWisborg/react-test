@@ -15,7 +15,6 @@ const Navbar = () => {
 
             <ul>
               <li className="nav-items"></li>
-              <li><Link to="/services">Tjänster</Link></li>
               <li><Link to="/about">Om Mig</Link></li>
               <li><Link to="/contact">Kontakt</Link></li>
             </ul>
