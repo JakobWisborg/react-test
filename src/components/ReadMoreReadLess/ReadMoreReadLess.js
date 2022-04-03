@@ -1,6 +1,8 @@
 import React from "react";
 import { useState  } from "react";
 import './ReadMoreReadLess.css';
+import expandLess from '../../symbols/expand-less.svg';
+import expandMore from '../../symbols/expand-more.svg';
 
 const ReadMoreReadLess = () => {
 
@@ -10,6 +12,13 @@ const ReadMoreReadLess = () => {
     return (
         <div>
             <b>Utbildning:</b> 
+           
+            <a onClick={() => setShow(!show)}>
+                {/* <img src={expandMore}></img>
+                {show === true ? 'Visa mindre' : 'visa mer'} */}
+                
+                {show === true ? <img src={expandLess}></img> : <img src={expandMore}></img>}
+            </a>
             {show && 
             <p>
                 Utbildad Hälsopedagog med fördjupade studier inom hälsosamt idrottande <br/>
@@ -28,9 +37,6 @@ const ReadMoreReadLess = () => {
 
                 Fystränare
             </p>}
-            <a onClick={() => setShow(!show)}>
-                {show === true ? 'Visa mindre' : 'Visa mer'}
-            </a>
             
         </div>
     )

@@ -1,3 +1,16 @@
 b {
+    font-size: 24px;
+    margin-bottom: 2rem;
     padding-bottom: 20px;
+}
+a {
+    border: solid 1px;
+    margin-left: 12px;
+    line-height: 12px;
+}
+img {
+    
+}
+p {
+    margin-top: 1em;
 }
