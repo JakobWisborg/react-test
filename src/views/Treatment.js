@@ -1,6 +1,5 @@
 import React from "react";
 import './css/Training.css';
-import './css/AllViews.css';
 
 const Treatment = () => {
     

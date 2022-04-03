@@ -1,0 +1,17 @@
+.About {
+    padding: 3em 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.About p {
+    margin-bottom: 12px; 
+}
+.inline {
+    display: inline-block;
+}
+.red {
+    background-color: red;
+}
+.wide-text {
+    padding: 3em 10%;
+}
